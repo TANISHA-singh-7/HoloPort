@@ -150,8 +150,11 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(0); }
+  0% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-10px) translateX(5px); }
+  50% { transform: translateY(0px) translateX(10px); }
+  75% { transform: translateY(10px) translateX(5px); }
+  100% { transform: translateY(0px) translateX(0px); }
 }
 
 @keyframes glow {
@@ -167,6 +170,37 @@
 @keyframes terminal-cursor {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+@keyframes flyRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(100vw + 100px)); }
+}
+
+@keyframes flyLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-100vw - 100px)); }
+}
+
+@keyframes neonPulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+@keyframes lightning {
+  0%, 100% { opacity: 0; }
+  10%, 25% { opacity: 1; }
+}
+
+@keyframes rain {
+  0% { transform: translateY(-100vh); }
+  100% { transform: translateY(100vh); }
 }
 
 @font-face {
