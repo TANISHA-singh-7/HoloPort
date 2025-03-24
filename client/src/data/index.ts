@@ -85,6 +85,38 @@ export const projects = [
     liveDemo: "https://tanisha-singh-7.github.io/MamaNest/#/home",
     github: "https://github.com/Tanisha-Singh-7/MamaNest",
     icon: "home-heart-line"
+  },
+  {
+    name: "BloomWithin 🌸",
+    description: "Mental health platform with AI-driven mood analysis and personalized care routines.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "TensorFlow.js"],
+    liveDemo: "https://tanisha-singh-7.github.io/BloomWithin/",
+    github: "https://github.com/TANISHA-singh-7/BloomWithin",
+    icon: "mental-health-line"
+  },
+  {
+    name: "SmartEd 📚",
+    description: "Educational platform that adapts to different learning styles using AI and interactive content.",
+    techStack: ["React", "Firebase", "TensorFlow.js", "Three.js"],
+    liveDemo: "https://github.com/TANISHA-singh-7/SmartEd",
+    github: "https://github.com/TANISHA-singh-7/SmartEd",
+    icon: "book-open-line"
+  },
+  {
+    name: "CryptoVault 🔐",
+    description: "Secure cryptocurrency wallet with real-time analytics and blockchain visualizations.",
+    techStack: ["React", "Web3.js", "Solidity", "Ethers.js", "Chart.js"],
+    liveDemo: "https://github.com/TANISHA-singh-7/CryptoVault",
+    github: "https://github.com/TANISHA-singh-7/CryptoVault",
+    icon: "lock-line"
+  },
+  {
+    name: "EcoTrack 🌍",
+    description: "Environmental impact tracking app that helps users reduce their carbon footprint.",
+    techStack: ["React Native", "Node.js", "MongoDB", "TensorFlow.js"],
+    liveDemo: "https://github.com/TANISHA-singh-7/EcoTrack",
+    github: "https://github.com/TANISHA-singh-7/EcoTrack",
+    icon: "earth-line"
   }
 ];
 
@@ -100,6 +132,39 @@ export const experience = [
     linkIcon: "linkedin-line",
     icon: "microsoft-line",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png"
+  },
+  {
+    company: "Google Developer Student Club",
+    title: "Tech Lead",
+    period: "August 2023 – Present",
+    description: "Lead technical workshops and hackathons, mentoring over 200 students on web and mobile development technologies.",
+    link: "https://www.linkedin.com/in/tanisha-singh-76659b223/",
+    linkText: "Club Page",
+    linkIcon: "team-line",
+    icon: "google-line",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+  },
+  {
+    company: "Flipkart",
+    title: "Software Engineering Extern",
+    period: "January 2024 – March 2024",
+    description: "Completed a 10-week externship program, working on real-world e-commerce projects and microservices architecture.",
+    link: "https://www.linkedin.com/in/tanisha-singh-76659b223/",
+    linkText: "Project Showcase",
+    linkIcon: "presentation-line",
+    icon: "shopping-bag-line",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flipkart_logo.svg/512px-Flipkart_logo.svg.png"
+  },
+  {
+    company: "Women Who Code",
+    title: "Student Ambassador",
+    period: "June 2023 – Present",
+    description: "Advocate for women in technology, organizing community events and creating inclusive learning environments.",
+    link: "https://www.linkedin.com/in/tanisha-singh-76659b223/",
+    linkText: "Advocacy Work",
+    linkIcon: "group-line",
+    icon: "women-line",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Women_Who_Code_Logo.png"
   }
 ];
 
@@ -132,6 +197,34 @@ export const achievements = [
     year: "2024",
     link: "https://drive.google.com/file/d/1E0DM3nB7f2AGWptfh3-W9PAZTCBH8Uan/view?usp=sharing",
     icon: "women-line"
+  },
+  {
+    title: "Microsoft Imagine Cup National Finalist",
+    description: "Reached the national finals with an AI-assisted education platform that adapts to individual learning styles.",
+    year: "2024",
+    link: "https://github.com/TANISHA-singh-7/SmartEd",
+    icon: "microsoft-line"
+  },
+  {
+    title: "AWS DeepRacer Champion",
+    description: "First place in regional AWS DeepRacer competition, training ML models to autonomously navigate a racetrack.",
+    year: "2023",
+    link: "https://drive.google.com/file/d/1E0DM3nB7f2AGWptfh3-W9PAZTCBH8Uan/view?usp=sharing",
+    icon: "award-line"
+  },
+  {
+    title: "TechGIG Code Gladiators Top 100",
+    description: "Finished in the top 100 out of 250,000+ participants in India's largest coding competition.",
+    year: "2023",
+    link: "https://drive.google.com/file/d/1E0DM3nB7f2AGWptfh3-W9PAZTCBH8Uan/view?usp=sharing",
+    icon: "code-s-slash-line"
+  },
+  {
+    title: "Women Who Code Hackathon Winner",
+    description: "First place for developing an innovative mental health monitoring application for women in tech.",
+    year: "2023",
+    link: "https://github.com/TANISHA-singh-7/BloomWithin",
+    icon: "heart-line"
   }
 ];
 

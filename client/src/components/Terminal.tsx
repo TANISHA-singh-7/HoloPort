@@ -114,14 +114,14 @@ const Terminal: React.FC<TerminalProps> = ({ initialText = '', height = 'h-80 md
         
         {/* Command history */}
         {commandHistory.map((entry, index) => (
-          <React.Fragment key={index}>
+          <div key={index}>
             <div className="mb-1 terminal-line">
               <span className="text-[rgb(var(--neon-secondary))]">tanisha@holoverse:~$</span> {entry.command}
             </div>
             <div className={`mb-3 ${entry.isError ? 'text-red-400' : ''}`}>
               {entry.response}
             </div>
-          </React.Fragment>
+          </div>
         ))}
         
         {/* Current input line */}

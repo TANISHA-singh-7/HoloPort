@@ -36,14 +36,9 @@ const Home: React.FC = () => {
       
       <div className="container mx-auto px-6 pt-16 md:pt-24 relative z-20 flex flex-col md:flex-row items-center">
         {/* Holographic Panel */}
-        <motion.div 
-          className="w-full md:w-1/2 mb-10 md:mb-0"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <HoloPanelCard className="rounded-lg p-6 md:p-8 max-w-md mx-auto md:ml-0 animate-float">
-            <h1 className="text-3xl md:text-4xl font-bold mb-3 text-[rgb(var(--neon-primary))] animate-glow">
+        <div className="w-full md:w-1/2 mb-10 md:mb-0">
+          <HoloPanelCard className="rounded-lg p-6 md:p-8 max-w-md mx-auto md:ml-0">
+            <h1 className="text-3xl md:text-4xl font-bold mb-3 text-[rgb(var(--neon-primary))]">
               Welcome to Tanisha Singh's HoloVerse! 🔮
             </h1>
             <div className="grid grid-cols-1 gap-4 mt-6">
@@ -86,17 +81,12 @@ const Home: React.FC = () => {
               </div>
             </div>
           </HoloPanelCard>
-        </motion.div>
+        </div>
         
         {/* Terminal Interface */}
-        <motion.div 
-          className="w-full md:w-1/2 h-80 md:h-96"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
+        <div className="w-full md:w-1/2 h-80 md:h-96">
           <Terminal initialText="Type commands to interact with the HoloVerse terminal. Try 'help', 'whoami', 'projects', or 'contact'." />
-        </motion.div>
+        </div>
       </div>
     </section>
   );
