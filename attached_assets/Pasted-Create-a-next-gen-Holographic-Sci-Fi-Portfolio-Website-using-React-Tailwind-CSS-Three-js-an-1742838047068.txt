@@ -1,0 +1,109 @@
+Create a next-gen **Holographic Sci-Fi Portfolio Website** using **React, Tailwind CSS, Three.js, and GSAP animations**. The interface should resemble a **futuristic command console with holographic projections**."*
+
+---
+
+## **✨ Features & Sections:**
+
+### **1. Home Section 🚀 (Holographic Intro UI)**  
+* A **floating hologram panel** introducing me:  
+  - `Welcome to Tanisha Singh’s HoloVerse! 🔮`  
+  - **Name:** *Tanisha Singh*  
+  - **Location:** *Patna, Bihar, India*  
+  - **Education:** *B.Tech, IIIT Bhagalpur (2022-2026)*  
+  - **Resume:** *[Download Resume](http://drive.google.com/file/d/1YsagoW11YzsVd5cx4NrSKAYYKkmFWjxy/view?usp=sharing)*  
+* Background should feature a **cyberpunk cityscape with animated neon lighting and flying drones**.  
+* **Interactive terminal console** where users can type commands like `whoami`, `projects`, `contact`, etc.  
+
+---
+
+### **2. Skills Section 🛠️ (3D Holographic Cards)**  
+* Display skills as **holographic floating cards** that rotate on hover.  
+* `> Skills: HTML, CSS, JavaScript, React, Express, MongoDB, MySQL, Python, Socket.io, Postman API`  
+
+---
+
+### **3. Projects Section 📂 (Holographic Project Panels)**  
+Each project should be displayed as a **floating hologram screen**, where users can tap to expand details.  
+
+#### **i) Krishi Nirman** 🌱👨‍🌾  
+* **A futuristic farmer-assistance platform integrating AI recommendations.**  
+* **Tech Stack:** *HTML, JavaScript, React, Tailwind*  
+* 🌐 [Live Project](https://tanisha-singh-7.github.io/Krishi-Nirmaan/)  
+* 📂 [GitHub Repo](https://github.com/Tanisha-Singh-7/Krishi-Nirmaan)  
+
+#### **ii) Period Tracker** 🩸  
+* **AI-powered menstrual cycle tracking for personalized predictions.**  
+* **Tech Stack:** *HTML, JavaScript, React, Tailwind*  
+* 🌐 [Live Project](https://tanisha-singh-7.github.io/Period-Tracker/#/home)  
+* 📂 [GitHub Repo](https://github.com/Tanisha-Singh-7/Period-Tracker)  
+
+#### **iii) MamaNest** 🤱  
+* **Smart maternity care with voice-based AI support.**  
+* **Tech Stack:** *HTML, JavaScript, React, Tailwind, Socket.io, Node.js, MongoDB*  
+* 🌐 [Live Project](https://tanisha-singh-7.github.io/MamaNest/#/home)  
+* 📂 [GitHub Repo](https://github.com/Tanisha-Singh-7/MamaNest)  
+
+---
+
+### **4. Experience Section 💼 (Holographic Timeline UI)**  
+* **Microsoft SWE Intern (May 2025 – July 2025)**  
+  - **Upcoming Software Engineering Intern**  
+  - 🔗 [LinkedIn Post](https://www.linkedin.com/in/tanisha-singh-76659b223/)  
+
+---
+
+### **5. Achievements Section 🏆 (3D Floating Trophies)**  
+Each **achievement appears as a floating neon badge**, pulsating when hovered over.  
+
+#### **i) Walmart CodeHers 2025 Finalist** 🏅  
+* **Ranked top 6% out of 113,000+ coders.**  
+* 🎖 [View Badge](https://github.com/TANISHA-singh-7/BloomWithin)  
+
+#### **ii) Google Girls Hackathon 2024 Finalist** 🚀  
+* **Selected among the top 0.08% (28 out of 34,000+ participants).**  
+* 🎖 [View Badge](https://github.com/TANISHA-singh-7/BloomWithin)  
+
+#### **iii) Flipkart Grid 6.0 QuarterFinalist** 🔥  
+* **Ranked in the top 1.65% (8,000 out of 484,308 competitors).**  
+* 🎖 [View Badge](https://drive.google.com/file/d/1NI7qR_i1-hz3XedDWjG9g_t-yondQ5me/view?usp=sharing)  
+
+#### **iv) Myntra We for She 2024 Quarterfinalist** 🌟  
+* 🎖 [View Badge](https://drive.google.com/file/d/1E0DM3nB7f2AGWptfh3-W9PAZTCBH8Uan/view?usp=sharing)  
+
+---
+
+### **6. Coding Profiles 💻 (Holographic Profile Cards)**  
+Users can type commands to display coding profiles.  
+
+* `> codechef profile`  
+  - **3⭐ (1687 highest rating)**  
+  - 🔗 [View Profile](https://www.codechef.com/users/tsingh0504)  
+
+* `> codeforces profile`  
+  - **Pupil (Highest rating 1237)**  
+  - 🔗 [View Profile](https://codeforces.com/profile/Tanisha_singh_7_7)  
+
+* `> leetcode profile`  
+  - **Highest rating 1594**  
+  - 🔗 [View Profile](https://leetcode.com/u/Conqueror_Tanisha_050420/)  
+
+---
+
+### **7. Contact Me Section 📧 (Futuristic Holo Form)**  
+* A **holographic contact form** with a glowing neon input field.  
+* Users can type `> contact` in the terminal to display a floating form.  
+* Social links:  
+  - 🔗 **GitHub:** [tanisha-singh-7](https://github.com/TANISHA-singh-7)  
+  - 🔗 **LinkedIn:** [tanisha-singh-88b544260](https://www.linkedin.com/in/tanisha-singh-88b544260/)  
+  - 📧 **Email:** tanishasingh4785@gmail.com  
+
+---
+
+## **🎨 Design Elements:**  
+* **Holographic UI** – Buttons, cards, and text fields should appear as **floating neon-glow projections**.  
+* **Neon Lighting Effects** – Sci-fi blue, pink, and purple color scheme.  
+* **Parallax Animations** – Elements should move slightly on cursor hover.  
+* **3D Hologram Interaction** – Clicking a section should project a **3D effect with GSAP animations**.  
+* **Sound Effects** – Soft sci-fi beeps and haptic feedback.  
+
+---
