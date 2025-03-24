@@ -1,0 +1,333 @@
+// Basic information
+export const info = {
+  name: "Tanisha Singh",
+  location: "Patna, Bihar, India",
+  education: "B.Tech, IIIT Bhagalpur (2022-2026)",
+  resume: "http://drive.google.com/file/d/1YsagoW11YzsVd5cx4NrSKAYYKkmFWjxy/view?usp=sharing",
+};
+
+// Skills data
+export const skills = [
+  {
+    name: "HTML",
+    icon: "html5-fill",
+    proficiency: 90,
+    category: "Frontend"
+  },
+  {
+    name: "CSS",
+    icon: "css3-fill",
+    proficiency: 85,
+    category: "Frontend"
+  },
+  {
+    name: "JavaScript",
+    icon: "javascript-fill",
+    proficiency: 80,
+    category: "Frontend"
+  },
+  {
+    name: "React",
+    icon: "reactjs-fill",
+    proficiency: 75,
+    category: "Frontend"
+  },
+  {
+    name: "TypeScript",
+    icon: "code-box-fill",
+    proficiency: 65,
+    category: "Languages"
+  },
+  {
+    name: "C++",
+    icon: "code-s-slash-fill",
+    proficiency: 85,
+    category: "Languages"
+  },
+  {
+    name: "MongoDB",
+    icon: "database-2-fill",
+    proficiency: 70,
+    category: "Backend"
+  },
+  {
+    name: "MySQL",
+    icon: "database-fill",
+    proficiency: 65,
+    category: "Backend"
+  },
+  {
+    name: "Python",
+    icon: "braces-fill",
+    proficiency: 80,
+    category: "Languages"
+  },
+  {
+    name: "Express",
+    icon: "server-fill",
+    proficiency: 70,
+    category: "Backend"
+  },
+  {
+    name: "Node.js",
+    icon: "nodejs-line", // Changed from "node-js-fill" to "nodejs-line"
+    proficiency: 75,
+    category: "Backend"
+  },
+  {
+    name: "Socket.io",
+    icon: "message-3-fill",
+    proficiency: 60,
+    category: "Backend"
+  },
+  {
+    name: "Three.js",
+    icon: "cube-line", // Changed from "3d-fill" to "cube-line"
+    proficiency: 55,
+    category: "Frontend"
+  },
+  {
+    name: "Tailwind",
+    icon: "layout-grid-fill",
+    proficiency: 85,
+    category: "Frontend"
+  },
+  {
+    name: "Git",
+    icon: "git-branch-fill",
+    proficiency: 75,
+    category: "Tools"
+  },
+  {
+    name: "Docker",
+    icon: "ship-fill",
+    proficiency: 60,
+    category: "Tools"
+  }
+];
+
+// Projects data
+export const projects = [
+  {
+    name: "Krishi Nirman 🌱👨‍🌾",
+    description: "A futuristic farmer-assistance platform integrating AI recommendations.",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind"],
+    liveDemo: "https://tanisha-singh-7.github.io/Krishi-Nirmaan/",
+    github: "https://github.com/Tanisha-Singh-7/Krishi-Nirmaan",
+    icon: "plant-line"
+  },
+  {
+    name: "Period Tracker 🩸",
+    description: "AI-powered menstrual cycle tracking for personalized predictions.",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind"],
+    liveDemo: "https://tanisha-singh-7.github.io/Period-Tracker/#/home",
+    github: "https://github.com/Tanisha-Singh-7/Period-Tracker",
+    icon: "calendar-line"
+  },
+  {
+    name: "MamaNest 🤱",
+    description: "Smart maternity care with voice-based AI support.",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind", "Socket.io", "Node.js", "MongoDB"],
+    liveDemo: "https://tanisha-singh-7.github.io/MamaNest/#/home",
+    github: "https://github.com/Tanisha-Singh-7/MamaNest",
+    icon: "home-heart-line"
+  },
+  {
+    name: "BloomWithin 🌸",
+    description: "Mental health platform with AI-driven mood analysis and personalized care routines.",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind", "Socket.io", "Node.js", "MongoDB"],
+    liveDemo: "https://tanisha-singh-7.github.io/BloomWithin/",
+    github: "https://github.com/TANISHA-singh-7/BloomWithin",
+    icon: "mental-health-line"
+  },
+  {
+    name: "PashuRakshak🐾",
+    description: "A platform that Report, rescue, and support injured animals in need.",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind", "Socket.io", "Node.js", "MongoDB"],
+    liveDemo: "https://github.com/TANISHA-singh-7/SmartEd",
+    github: "https://github.com/TANISHA-singh-7/SmartEd",
+    icon: "footprint-line" 
+  },
+  {
+    name: "NaariSahayata 🚺",
+    description: "A platform dedicated to women's safety, empowerment, and support. 💪",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind", "Socket.io", "Node.js", "MongoDB"],
+    liveDemo: "https://github.com/TANISHA-singh-7/CryptoVault",
+    github: "https://github.com/TANISHA-singh-7/CryptoVault",
+    icon: "women-line"  // Changed from "lock-line" to "women-line"
+  },
+  {
+    name: "Saahitya-Spot 📚",
+    description: "A creative space to read, write, and share poetry and stories. 📖",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind", "Socket.io", "Google Api",],
+    liveDemo: "https://github.com/TANISHA-singh-7/EcoTrack",
+    github: "https://github.com/TANISHA-singh-7/EcoTrack",
+    icon: "book-line"
+  }
+];
+
+// Experience data
+export const experience = [
+  {
+    company: "Microsoft",
+    title: "Microsoft SWE Intern",
+    period: "May 2025 – July 2025",
+    description: "Upcoming Software Engineering Intern at Microsoft working on cutting-edge technology solutions.",
+    link: "https://www.linkedin.com/posts/tanisha-singh-88b544260_microsoftinternship-hellomicrosoft-microsoftee-activity-7303820888565600256-Sa_A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEAm3-sBYh1vk2IjpBms6I_p7AZaWQSV-NI",
+    linkText: "LinkedIn Post",
+    linkIcon: "linkedin-line",
+    icon: "microsoft-line",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png"
+  }
+  // {
+  //   company: "Google Developer Student Club",
+  //   title: "Tech Lead",
+  //   period: "August 2023 – Present",
+  //   description: "Lead technical workshops and hackathons, mentoring over 200 students on web and mobile development technologies.",
+  //   link: "https://www.linkedin.com/in/tanisha-singh-76659b223/",
+  //   linkText: "Club Page",
+  //   linkIcon: "team-line",
+  //   icon: "google-line",
+  //   logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+  // },
+  // {
+  //   company: "Flipkart",
+  //   title: "Software Engineering Extern",
+  //   period: "January 2024 – March 2024",
+  //   description: "Completed a 10-week externship program, working on real-world e-commerce projects and microservices architecture.",
+  //   link: "https://www.linkedin.com/in/tanisha-singh-76659b223/",
+  //   linkText: "Project Showcase",
+  //   linkIcon: "presentation-line",
+  //   icon: "shopping-bag-line",
+  //   logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flipkart_logo.svg/512px-Flipkart_logo.svg.png"
+  // },
+  // {
+  //   company: "Women Who Code",
+  //   title: "Student Ambassador",
+  //   period: "June 2023 – Present",
+  //   description: "Advocate for women in technology, organizing community events and creating inclusive learning environments.",
+  //   link: "https://www.linkedin.com/in/tanisha-singh-76659b223/",
+  //   linkText: "Advocacy Work",
+  //   linkIcon: "group-line",
+  //   icon: "women-line",
+  //   logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Women_Who_Code_Logo.png"
+  // }
+];
+
+// Achievements data
+export const achievements = [
+  {
+    title: "Walmart CodeHers Finalist",
+    description: "Ranked top 6% out of 113,000+ coders in this prestigious competition for women engineers.",
+    year: "2025",
+    link: "https://github.com/TANISHA-singh-7/BloomWithin",
+    icon: "medal-line"
+  },
+  {
+    title: "Google Girls Hackathon Finalist",
+    description: "Selected among the top 0.08% (28 out of 34,000+ participants) in Google's flagship hackathon.",
+    year: "2024",
+    link: "https://github.com/TANISHA-singh-7/BloomWithin",
+    icon: "google-line"
+  },
+  {
+    title: "Flipkart Grid 6.0 QuarterFinalist",
+    description: "Ranked in the top 1.65% (8,000 out of 484,308 competitors) in Flipkart's prestigious coding competition.",
+    year: "2024",
+    link: "https://drive.google.com/file/d/1NI7qR_i1-hz3XedDWjG9g_t-yondQ5me/view?usp=sharing",
+    icon: "shopping-bag-line"
+  },
+  {
+    title: "Myntra We for She 2024 Quarterfinalist",
+    description: "Advanced to quarterfinals in Myntra's flagship hackathon for women technologists focused on creating inclusive innovations.",
+    year: "2024",
+    link: "https://drive.google.com/file/d/1E0DM3nB7f2AGWptfh3-W9PAZTCBH8Uan/view?usp=sharing",
+    icon: "women-line"
+  },
+  {
+    title: "TVs Credit Epic 6.0 IT Challenge 2024 Quarterfinalist",
+    description: "Ranked 3,400th out of 42,000 participants, successfully applying data structures and algorithms to solve complex challenges under time constraints.",
+    year: "2024",
+    link: "https://drive.google.com/file/d/1fRQfy8JJugYS3-6rWH4kR69xcs6-H9op/view?usp=sharing",
+    icon: "code-box-line"  // Changed from "microsoft-line" to "code-box-line"
+  },
+  {
+    title: "Smart India Internal Hackathon Winner (2023)",
+    description: "Led a team of 5 developers to develop EXABYTE. Finished as Top 5 out of 38 teams.",
+    year: "2023",
+    link: "https://drive.google.com/file/d/1AnLOKgRziagcvo4Kv0DjKYxqfVu4FXKN/view?usp=sharing",
+    icon: "award-line"
+  },
+  {
+    title: "Open Source Contributions",
+    description: "- Contributed to open source projects conducted by the college.",
+    year: "2024",
+    link: "https://drive.google.com/file/d/1x041IUGhCGbGZiuCaL7mDdveBJ38TolK/view?usp=sharing",
+    icon: "code-s-slash-line"
+  },
+];
+
+// Coding profiles data
+export const codingProfiles = [
+  {
+    platform: "LeetCode",
+    icon: "code-box-fill",
+    rank: "Knight",
+    rating: "Highest rating 1594",
+    link: "https://leetcode.com/u/Conqueror_Tanisha_050420/",
+    progressPercentage: 78,
+    problemsSolved: 620,
+    description: "Consistently ranked in the top 23.81% of worldwide LeetCode contestants.",
+    contestHighlight: "Global Rank 285 in Weekly Contest 356",
+    badges: ["100 Day Streak", "Dynamic Programming Specialist", "Tree Algorithms Expert"],
+    achievements: ["All SQL challenges completed", "Top contributor in problem solving"]
+  },
+  {
+    platform: "CodeChef",
+    icon: "award-fill",
+    stars: 3,
+    rating: "1687 highest rating",
+    link: "https://www.codechef.com/users/tsingh0504",
+    progressPercentage: 84,
+    problemsSolved: 450,
+    description: "3-star rated competitive programmer with expertise in optimization algorithms and computational geometry. Regularly compete in Long Challenges and Cook-offs.",
+    contestHighlight: "Ranked 75 in April Long Challenge 2024",
+    badges: ["3-Star Coder", "Consistent Performer"],
+    achievements: ["Division 2 Contestant"]
+  },
+  {
+    platform: "CodeForces",
+    icon: "fire-fill",
+    rank: "Pupil",
+    rating: "Highest rating 1267",
+    link: "https://codeforces.com/profile/Tanisha_singh_7_7",
+    progressPercentage: 65,
+    problemsSolved: 380,
+    description: "Specialist-rated programmer with focus on algorithm optimization and mathematical problem-solving. Participate in all Div 2 contests consistently.",
+    contestHighlight: "Rated 112 in Educational Codeforces Round 169",
+    badges: ["Problem-Solving Expert"],
+    achievements: ["Div 2 Contestant (Educational Rounds)", "Contributed to community problem set",]
+  },
+  {
+    platform: "HackerRank",
+    icon: "terminal-box-fill",
+    stars: 5,
+    rating: "4-Star in Problem Solving",
+    link: "https://www.hackerrank.com/tanishasingh4785",
+    progressPercentage: 92,
+    problemsSolved: 290,
+    description: "Achieved 4-stars in Problem Solving, Algorithms, and Data Structures. Gold badge holder in C++, Java, and Python programming languages.",
+    contestHighlight: "Top 50 in Women's CodeSprint 2023",
+    badges: ["Gold Medal: Algorithm", "Gold Medal: Data Structures", "Gold Medal: Python"],
+    achievements: ["All Problem Solving Challenges Completed", "Top Contributor in Discussion Forums", "University Ambassador"]
+  }
+];
+
+// Contact information
+export const contactInfo = {
+  email: "tanishasingh4785@gmail.com",
+  github: "https://github.com/TANISHA-singh-7",
+  githubUsername: "tanisha-singh-7",
+  linkedin: "https://www.linkedin.com/in/tanisha-singh-88b544260/",
+  linkedinUsername: "tanisha-singh-88b544260"
+};
