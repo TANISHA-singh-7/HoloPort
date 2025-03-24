@@ -39,6 +39,12 @@ export const skills = [
     category: "Languages"
   },
   {
+    name: "C++",
+    icon: "code-s-slash-fill",
+    proficiency: 85,
+    category: "Languages"
+  },
+  {
     name: "MongoDB",
     icon: "database-2-fill",
     proficiency: 70,
@@ -52,7 +58,7 @@ export const skills = [
   },
   {
     name: "Python",
-    icon: "terminal-box-fill",
+    icon: "braces-fill",
     proficiency: 80,
     category: "Languages"
   },
@@ -82,7 +88,7 @@ export const skills = [
   },
   {
     name: "Tailwind",
-    icon: "paint-fill",
+    icon: "layout-grid-fill",
     proficiency: 85,
     category: "Frontend"
   },
@@ -94,7 +100,7 @@ export const skills = [
   },
   {
     name: "Docker",
-    icon: "box-fill",
+    icon: "ship-fill",
     proficiency: 60,
     category: "Tools"
   }

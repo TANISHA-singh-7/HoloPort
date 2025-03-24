@@ -5,13 +5,17 @@ interface HoloPanelProps {
   className?: string;
   gradient?: 'primary' | 'secondary' | 'tertiary' | 'none';
   hoverEffect?: 'glow' | 'scale' | 'tilt' | 'none';
+  hover3D?: boolean;
+  delay?: number;
 }
 
 const HoloPanelCard: React.FC<HoloPanelProps> = ({
   children,
   className = '',
   gradient = 'primary',
-  hoverEffect = 'glow'
+  hoverEffect = 'glow',
+  hover3D = false,
+  delay = 0
 }) => {
   const gradientMap = {
     primary: 'bg-gradient-to-br from-[rgba(0,238,255,0.1)] to-[rgba(112,0,255,0.05)]',

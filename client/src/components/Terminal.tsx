@@ -57,7 +57,6 @@ const Terminal: React.FC<TerminalProps> = ({ initialText = '', height = 'h-80 md
   // Simulate focus on terminal when clicking anywhere in the terminal
   const handleTerminalClick = () => {
     setIsFocused(true);
-    window.addEventListener('keydown', handleGlobalKeydown);
   };
   
   const handleGlobalKeydown = useCallback((e: KeyboardEvent) => {
@@ -89,14 +88,16 @@ const Terminal: React.FC<TerminalProps> = ({ initialText = '', height = 'h-80 md
   }, [currentInput, executeCommand, isFocused, navigateHistory, playBeep, playClick]);
   
   useEffect(() => {
-    // Add event listener when component mounts
-    window.addEventListener('keydown', handleGlobalKeydown);
+    // Add event listener only when terminal is focused
+    if (isFocused) {
+      window.addEventListener('keydown', handleGlobalKeydown);
+    }
     
-    // Remove event listener when component unmounts
+    // Remove event listener when component unmounts or loses focus
     return () => {
       window.removeEventListener('keydown', handleGlobalKeydown);
     };
-  }, [handleGlobalKeydown]);
+  }, [handleGlobalKeydown, isFocused]);
   
   // Blur terminal when clicking elsewhere
   useEffect(() => {
