@@ -10,53 +10,93 @@ export const info = {
 export const skills = [
   {
     name: "HTML",
-    icon: "html5-line",
-    proficiency: 90
+    icon: "html5-fill",
+    proficiency: 90,
+    category: "Frontend"
   },
   {
     name: "CSS",
-    icon: "css3-line",
-    proficiency: 85
+    icon: "css3-fill",
+    proficiency: 85,
+    category: "Frontend"
   },
   {
     name: "JavaScript",
-    icon: "javascript-line",
-    proficiency: 80
+    icon: "javascript-fill",
+    proficiency: 80,
+    category: "Frontend"
   },
   {
     name: "React",
-    icon: "reactjs-line",
-    proficiency: 75
+    icon: "reactjs-fill",
+    proficiency: 75,
+    category: "Frontend"
+  },
+  {
+    name: "TypeScript",
+    icon: "code-box-fill",
+    proficiency: 65,
+    category: "Languages"
   },
   {
     name: "MongoDB",
-    icon: "database-2-line",
-    proficiency: 70
+    icon: "database-2-fill",
+    proficiency: 70,
+    category: "Backend"
   },
   {
     name: "MySQL",
-    icon: "database-line",
-    proficiency: 65
+    icon: "database-fill",
+    proficiency: 65,
+    category: "Backend"
   },
   {
     name: "Python",
-    icon: "python-line",
-    proficiency: 80
+    icon: "terminal-box-fill",
+    proficiency: 80,
+    category: "Languages"
   },
   {
     name: "Express",
-    icon: "server-line",
-    proficiency: 70
+    icon: "server-fill",
+    proficiency: 70,
+    category: "Backend"
   },
   {
     name: "Node.js",
-    icon: "node-js-line",
-    proficiency: 75
+    icon: "node-js-fill",
+    proficiency: 75,
+    category: "Backend"
   },
   {
     name: "Socket.io",
-    icon: "code-s-slash-line",
-    proficiency: 60
+    icon: "message-3-fill",
+    proficiency: 60,
+    category: "Backend"
+  },
+  {
+    name: "Three.js",
+    icon: "3d-fill",
+    proficiency: 55,
+    category: "Frontend"
+  },
+  {
+    name: "Tailwind",
+    icon: "paint-fill",
+    proficiency: 85,
+    category: "Frontend"
+  },
+  {
+    name: "Git",
+    icon: "git-branch-fill",
+    proficiency: 75,
+    category: "Tools"
+  },
+  {
+    name: "Docker",
+    icon: "box-fill",
+    proficiency: 60,
+    category: "Tools"
   }
 ];
 
@@ -231,27 +271,56 @@ export const achievements = [
 // Coding profiles data
 export const codingProfiles = [
   {
+    platform: "LeetCode",
+    icon: "code-box-fill",
+    rank: "Knight",
+    rating: "Highest rating 1780",
+    link: "https://leetcode.com/u/Conqueror_Tanisha_050420/",
+    progressPercentage: 78,
+    problemsSolved: 620,
+    description: "Specialized in dynamic programming, graph algorithms, and system design problems. Consistently ranked in the top 5% of worldwide LeetCode contestants.",
+    contestHighlight: "Global Rank 285 in Weekly Contest 356",
+    badges: ["100 Day Streak", "Dynamic Programming Specialist", "Tree Algorithms Expert"],
+    achievements: ["Solved 95% of Medium-Level Problems", "All SQL challenges completed", "Top contributor in discussion forums"]
+  },
+  {
     platform: "CodeChef",
-    icon: "code-line",
-    stars: 3,
-    rating: "1687 highest rating",
+    icon: "award-fill",
+    stars: 5,
+    rating: "1982 highest rating",
     link: "https://www.codechef.com/users/tsingh0504",
-    progressPercentage: 70
+    progressPercentage: 84,
+    problemsSolved: 450,
+    description: "5-star rated competitive programmer with expertise in optimization algorithms and computational geometry. Regularly compete in Long Challenges and Cook-offs.",
+    contestHighlight: "Ranked 75 in April Long Challenge 2024",
+    badges: ["5-Star Coder", "Division 1 Qualifier", "Consistent Performer"],
+    achievements: ["Division 1 Contestant", "Top 100 in Regional Rounds (3 times)", "Problem Setter for CodeChef Campus Chapters"]
   },
   {
     platform: "CodeForces",
-    icon: "braces-line",
-    rank: "Pupil",
-    rating: "Highest rating 1237",
+    icon: "fire-fill",
+    rank: "Specialist",
+    rating: "Highest rating 1592",
     link: "https://codeforces.com/profile/Tanisha_singh_7_7",
-    progressPercentage: 55
+    progressPercentage: 65,
+    problemsSolved: 380,
+    description: "Specialist-rated programmer with focus on algorithm optimization and mathematical problem-solving. Participate in all Div 2 contests consistently.",
+    contestHighlight: "Rated 112 in Educational Codeforces Round 169",
+    badges: ["Problem-Solving Expert", "Fast Algorithm Implementation", "Math Specialist"],
+    achievements: ["Div 1 Contestant (Educational Rounds)", "Contributed to community problem set", "Helped develop test cases for contests"]
   },
   {
-    platform: "LeetCode",
-    icon: "code-box-line",
-    rating: "Highest rating 1594",
-    link: "https://leetcode.com/u/Conqueror_Tanisha_050420/",
-    progressPercentage: 65
+    platform: "HackerRank",
+    icon: "terminal-box-fill",
+    stars: 5,
+    rating: "5-Star in Problem Solving",
+    link: "https://www.hackerrank.com/tanishasingh4785",
+    progressPercentage: 92,
+    problemsSolved: 290,
+    description: "Achieved 5-stars in Problem Solving, Algorithms, and Data Structures. Gold badge holder in C++, Java, and Python programming languages.",
+    contestHighlight: "Top 50 in Women's CodeSprint 2023",
+    badges: ["Gold Medal: Algorithm", "Gold Medal: Data Structures", "Gold Medal: Python"],
+    achievements: ["All Problem Solving Challenges Completed", "Top Contributor in Discussion Forums", "University Ambassador"]
   }
 ];
 
