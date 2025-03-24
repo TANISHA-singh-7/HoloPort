@@ -1,5 +1,5 @@
 
-// Basic information and all data exports
+// Basic information
 export const info = {
   name: "Tanisha Singh",
   location: "Patna, Bihar, India",
@@ -7,6 +7,7 @@ export const info = {
   resume: "http://drive.google.com/file/d/1YsagoW11YzsVd5cx4NrSKAYYKkmFWjxy/view?usp=sharing",
 };
 
+// Skills data
 export const skills = [
   {
     name: "HTML",
@@ -14,10 +15,37 @@ export const skills = [
     proficiency: 90,
     category: "Frontend"
   },
-  // ... rest of the skills array
+  {
+    name: "CSS",
+    icon: "css3-fill",
+    proficiency: 85,
+    category: "Frontend"
+  },
+  {
+    name: "JavaScript",
+    icon: "javascript-fill",
+    proficiency: 80,
+    category: "Frontend"
+  }
 ];
 
 export const projects = [
+  {
+    name: "MamaNest",
+    description: "A revolutionary platform aiding expectant mothers with personalized AI guidance.",
+    techStack: ["HTML", "JavaScript", "React", "Tailwind"],
+    liveDemo: "https://tanisha-singh-7.github.io/MamaNest/#/home",
+    github: "https://github.com/Tanisha-Singh-7/MamaNest",
+    icon: "home-heart-line"
+  },
+  {
+    name: "BloomWithin 🌸",
+    description: "A women-centric platform promoting menstrual health awareness.",
+    techStack: ["HTML", "CSS", "JavaScript", "React"],
+    liveDemo: "https://tanisha-singh-7.github.io/BloomWithin/",
+    github: "https://github.com/TANISHA-singh-7/BloomWithin",
+    icon: "heart-pulse-line"
+  },
   {
     name: "Krishi Nirman 🌱👨‍🌾",
     description: "A futuristic farmer-assistance platform integrating AI recommendations.",
@@ -25,8 +53,7 @@ export const projects = [
     liveDemo: "https://tanisha-singh-7.github.io/Krishi-Nirmaan/",
     github: "https://github.com/Tanisha-Singh-7/Krishi-Nirmaan",
     icon: "plant-line"
-  },
-  // ... rest of the projects array
+  }
 ];
 
 export const experience = [
@@ -50,8 +77,7 @@ export const achievements = [
     year: "2025",
     link: "https://github.com/TANISHA-singh-7/BloomWithin",
     icon: "medal-line"
-  },
-  // ... rest of the achievements array
+  }
 ];
 
 export const codingProfiles = [
@@ -67,8 +93,7 @@ export const codingProfiles = [
     contestHighlight: "Global Rank 285 in Weekly Contest 356",
     badges: ["100 Day Streak", "Dynamic Programming Specialist", "Tree Algorithms Expert"],
     achievements: ["All SQL challenges completed", "Top contributor in problem solving"]
-  },
-  // ... rest of the codingProfiles array
+  }
 ];
 
 export const contactInfo = {
