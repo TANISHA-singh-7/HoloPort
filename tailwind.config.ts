@@ -48,6 +48,14 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        // Holographic theme colors
+        "holo-dark": "rgb(var(--holo-dark))",
+        "holo-terminal": "rgb(var(--holo-terminal))",
+        "holo-text": "rgb(var(--holo-text))",
+        "holo-panel": "rgb(var(--holo-panel))",
+        "neon-primary": "rgb(var(--neon-primary))",
+        "neon-secondary": "rgb(var(--neon-secondary))",
+        "neon-tertiary": "rgb(var(--neon-tertiary))",
         chart: {
           "1": "hsl(var(--chart-1))",
           "2": "hsl(var(--chart-2))",
