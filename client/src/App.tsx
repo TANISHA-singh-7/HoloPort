@@ -39,7 +39,7 @@ function Router() {
       </Switch>
       <footer className="py-8 border-t border-holo-primary/20 relative">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-holo-text opacity-70">&copy; {new Date().getFullYear()} Tanisha Singh's HoloVerse | All rights reserved</p>
+          <p className="text-holo-text opacity-70">&copy; {new Date().getFullYear()} Tanisha Singh's TanishaVerse | All rights reserved</p>
           <p className="text-sm text-holo-text opacity-50 mt-2">Designed by Tanisha Singh</p>
         </div>
       </footer>

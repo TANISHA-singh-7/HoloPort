@@ -135,21 +135,21 @@ const Terminal: React.FC<TerminalProps> = ({ initialText = '', height = 'h-80 md
         <div className="w-3 h-3 rounded-full bg-red-500 opacity-70 mr-2"></div>
         <div className="w-3 h-3 rounded-full bg-yellow-500 opacity-70 mr-2"></div>
         <div className="w-3 h-3 rounded-full bg-green-500 opacity-70"></div>
-        <div className="ml-4 text-xs opacity-70">tanisha@holoverse:~</div>
+        <div className="ml-4 text-xs opacity-70">tanisha@tanishaverse:~</div>
       </div>
       <div ref={terminalContentRef} className="p-4 font-mono text-sm h-[calc(100%-32px)] overflow-auto bg-black bg-opacity-70">
         {initialText && (
           <div className="mb-4">{initialText}</div>
         )}
         
-        <div className="mb-2">Welcome to HoloVerse OS v1.0.0</div>
+        <div className="mb-2">Welcome to TanishaVerse OS v1.0.0</div>
         <div className="mb-2">Type <span className="text-[rgb(var(--neon-secondary))]">'help'</span> to see available commands</div>
         
         {/* Command history */}
         {commandHistory.map((entry, index) => (
           <div key={index}>
             <div className="mb-1 terminal-line">
-              <span className="text-[rgb(var(--neon-secondary))]">tanisha@holoverse:~$</span> {entry.command}
+              <span className="text-[rgb(var(--neon-secondary))]">tanisha@tanishaverse:~$</span> {entry.command}
             </div>
             <div className={`mb-3 ${entry.isError ? 'text-red-400' : ''} whitespace-pre-line`}>
               {entry.response}
@@ -159,7 +159,7 @@ const Terminal: React.FC<TerminalProps> = ({ initialText = '', height = 'h-80 md
         
         {/* Current input line */}
         <div className="terminal-prompt flex">
-          <span className="text-[rgb(var(--neon-secondary))]">tanisha@holoverse:~$</span> 
+          <span className="text-[rgb(var(--neon-secondary))]">tanisha@tanishaverse:~$</span> 
           <span className="ml-1">{currentInput}</span>
           {cursorVisible && isFocused && <span className="ml-px w-2 h-5 bg-[rgb(var(--neon-primary))] inline-block animate-pulse"></span>}
         </div>
