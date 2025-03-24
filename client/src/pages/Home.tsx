@@ -39,7 +39,7 @@ const Home: React.FC = () => {
         <div className="w-full md:w-1/2 mb-10 md:mb-0">
           <HoloPanelCard className="rounded-lg p-6 md:p-8 max-w-md mx-auto md:ml-0">
             <h1 className="text-3xl md:text-4xl font-bold mb-3 text-[rgb(var(--neon-primary))]">
-              Welcome to Tanisha Singh's HoloVerse! 🔮
+              Welcome to Tanisha Singh's TanishaVerse! 🔮
             </h1>
             <div className="grid grid-cols-1 gap-4 mt-6">
               <div className="flex items-center">
@@ -85,7 +85,7 @@ const Home: React.FC = () => {
         
         {/* Terminal Interface */}
         <div className="w-full md:w-1/2 h-80 md:h-96">
-          <Terminal initialText="Type commands to interact with the HoloVerse terminal. Try 'help', 'whoami', 'projects', or 'contact'." />
+          <Terminal initialText="Type commands to interact with the TanishaVerse terminal. Try 'help', 'whoami', 'projects', or 'contact'." />
         </div>
       </div>
     </section>

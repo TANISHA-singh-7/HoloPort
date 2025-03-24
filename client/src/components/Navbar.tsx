@@ -41,7 +41,7 @@ const Navbar = () => {
     } border-b border-holo-primary border-opacity-20`}>
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-2xl font-bold text-[rgb(var(--neon-primary))] animate-glow tracking-wider">HOLOVERSE</span>
+          <span className="text-2xl font-bold text-[rgb(var(--neon-primary))] animate-glow tracking-wider">TANISHAVERSE</span>
         </div>
         <div className="hidden md:flex space-x-6">
           <HoloButton onClick={() => handleNavigation('/')} text="HOME" size="sm" />
